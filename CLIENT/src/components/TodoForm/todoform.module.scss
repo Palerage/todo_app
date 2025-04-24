@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 1rem;
+  background-color: var(--primary-color);
+
+  .post {
+    width: inherit;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+    input {
+      font-size: 1rem;
+      padding: 0.5rem;
+      width: 100%;
+      border: none;
+    }
+  }
+
+  button {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-color: var(--accent-color);
+    padding: 0.4rem;
+  }
+
+  .icon {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+  }
+}

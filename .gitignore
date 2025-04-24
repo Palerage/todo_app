@@ -1,0 +1,13 @@
+# Node (React)
+node_modules/
+dist/
+.env
+
+# .NET
+bin/
+obj/
+*.user
+*.vs/
+
+# Loggfiler och andra filer
+*.log
