@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --max-width: 500px;
-  --primary-color: rgb(12, 186, 134);
-  --accent-color: rgb(201, 230, 175);
+  --max-width: 1200px;
+  --primary-color: rgb(80, 110, 153);
+  --accent-color: rgb(175, 194, 226);
+  --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 * {

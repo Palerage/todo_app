@@ -23,7 +23,7 @@
   ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: var(--shadow-color);
     align-items: center;
     gap: 1rem;
     padding: 1rem;
